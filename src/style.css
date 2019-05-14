@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Quicksand:400,700|Staatliches');
+
+
+
+.background-index{
+    background: url(img/banner.jpg) center / cover white;
+  height: 100vh;
+  
+}
+.typografy-title{
+    font-family: 'Anton', sans-serif;
+}
+
+.typografy-t{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    letter-spacing: -5px;
+}
+.margin-button{
+    margin-bottom: 10px;
+}
+
+
+.no-margin{
+    margin-bottom: 0px !important;
+}
+
+.filterMovie{
+    margin-top: 60px;
+}
+
+ul li {
+    padding-bottom:  20px;
+
+
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+    margin-right: 0px!important;
+ text-transform: none;
+}
+
+.row-padding{
+    padding: 50px;
+
+}
+.margen{
+    margin-top: 50px;
+
+
+
+}
+
+.card.large .card-image {
+    max-height: 80%!important;
+}
+.showFilterMovies{
+
+    height: 500px;
+    overflow-y: scroll;
+}
+
+nav {
+    background: none;
+}
+.btn-filter li{
+    display: inline;
+
+}
+
+#icon {
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+    .row-padding{
+        padding: 10px;
+    
+    }  
+
+    .btn-filter li{
+        display: inline-block;
+    
+    }
+    
+}
+
+
